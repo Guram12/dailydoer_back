@@ -33,7 +33,13 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 if DEBUG:
     ALLOWED_HOSTS = ['*']
 else:
-    ALLOWED_HOSTS = ['www.dailydoer.space', 'api.dailydoer.space', 'dailydoer.space']
+    ALLOWED_HOSTS = [
+            'www.dailydoer.space', 
+            'api.dailydoer.space',
+            'dailydoer.space'
+            '178.104.31.243',
+
+        ]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
