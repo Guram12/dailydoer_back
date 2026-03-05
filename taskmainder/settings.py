@@ -61,6 +61,8 @@ CORS_ALLOW_CREDENTIALS = True
 
 
 CSRF_TRUSTED_ORIGINS = [
+    'http://178.104.31.243',
+    'https://178.104.31.243',
     'https://api.dailydoer.space',
     'http://api.dailydoer.space',
     'https://dailydoer.space',
