@@ -38,7 +38,8 @@ else:
             'api.dailydoer.space',
             'dailydoer.space',
             '178.104.31.243',
-
+            'localhost',
+            '127.0.0.1',
         ]
 
 CORS_ALLOWED_ORIGINS = [
