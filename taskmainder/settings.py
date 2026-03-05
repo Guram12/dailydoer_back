@@ -36,7 +36,7 @@ else:
     ALLOWED_HOSTS = [
             'www.dailydoer.space', 
             'api.dailydoer.space',
-            'dailydoer.space'
+            'dailydoer.space',
             '178.104.31.243',
 
         ]
